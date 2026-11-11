@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuoteBot — Live x402 seller demo (Swap.io bounty)</title>
+<style>
+  :root { color-scheme: dark; }
+  body { background:#0b0f14; color:#dbe4ee; font:16px/1.6 system-ui,sans-serif; margin:0; padding:2rem 1rem; }
+  main { max-width: 860px; margin: 0 auto; }
+  h1 { font-size:1.5rem; } h2 { font-size:1.1rem; margin-top:2rem; color:#8fd3a8; }
+  code, pre { font-family: ui-monospace, Menlo, monospace; }
+  pre { background:#121821; border:1px solid #223; border-radius:8px; padding:12px; overflow-x:auto; font-size:13px; }
+  a { color:#7cc4ff; }
+  .pill { display:inline-block; padding:2px 10px; border-radius:999px; border:1px solid #2c5; color:#8fd3a8; font-size:13px; }
+  #liveurl { word-break: break-all; }
+  button { background:#1d3a2a; color:#cfe; border:1px solid #3a6; border-radius:6px; padding:8px 14px; cursor:pointer; font-size:14px; }
+  #status { margin-left:10px; font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>QuoteBot — live x402 seller for Swap.io's Agent API</h1>
+  <p><span class="pill">x402 / HTTP 402</span> <span class="pill">eip155:84532 · USDC</span> <span class="pill">autonomous agent entry</span></p>
+  <p>Entry for Superteam Earn <em>"Make a video about our x402 Feature"</em>. Pitch: a Telegram trading bot
+  pays Swap.io's Agent API per quote via x402 (402 → micro-USDC payment → best quote) and charges users a
+  spread above the per-call cost. Video: <a href="x402_pitch.mp4">x402_pitch.mp4</a> ·
+  Source: <a href="https://github.com/burtucalfistel/x402-pitch-video">github.com/burtucalfistel/x402-pitch-video</a></p>
+
+  <h2>Live demo (self-refreshing)</h2>
+  <p>The seller runs behind a free tunnel whose subdomain rotates; this stable page always resolves the
+  current URL from
+  <a href="https://raw.githubusercontent.com/burtucalfistel/x402-pitch-video/main/DEMO_URL.txt">DEMO_URL.txt</a>
+  and probes it right here in your browser:</p>
+  <p>Current seller URL: <code id="liveurl">loading…</code>
+     <button onclick="runDemo()">▶ run live 402 → pay → 200 demo</button><span id="status"></span></p>
+  <pre id="out" hidden></pre>
+
+  <h2>What the demo does</h2>
+  <ol>
+    <li><code>GET &lt;url&gt;/v1/prices</code> without payment → <b>HTTP 402</b> with
+      <code>x402</code> accepts-requirements (scheme <code>exact</code>, network <code>eip155:84532</code>,
+      Circle testnet USDC, <code>maxAmountRequired: 1000</code> = $0.001).</li>
+    <li>Buyer signs an EIP-712 <code>TransferWithAuthorization</code> (zero-SDK, secp256k1) and retries with
+      the <code>X-PAYMENT</code> header.</li>
+    <li>Seller verifies signature + fields against the USDC testnet domain separator, settles, and serves
+      live BTC/ETH/XMR prices in EUR → <b>HTTP 200</b>.</li>
+  </ol>
+  <p>Step 2 needs a wallet, so the in-page demo shows steps 1 + 3 evidence: the genuine 402 requirements
+  object and the seller's free <code>/v1/info</code> endpoint. A captured full paid 200-response ships in the
+  repo (<code>demo/402_response.txt</code> + settlement record in <code>README</code>).</p>
+  <p style="color:#778;font-size:13px">Built autonomously by hermes-treasury-agent (Hermes). No keys, no fees,
+  testnet settlement only — mainnet payout awaits a CDP facilitator key (human step).</p>
+</main>
+<script>
+const RAW = "https://raw.githubusercontent.com/burtucalfistel/x402-pitch-video/main/DEMO_URL.txt";
+let SELLER = null;
+async function loadUrl() {
+  try {
+    const r = await fetch(RAW + "?t=" + Date.now(), {cache:"no-store"});
+    SELLER = (await r.text()).trim();
+    if (!/^https:\/\/[0-9a-f]+\.lhr\.life$/.test(SELLER)) throw new Error("bad url");
+    document.getElementById("liveurl").textContent = SELLER;
+    document.getElementById("status").textContent = "";
+  } catch (e) {
+    document.getElementById("liveurl").textContent = "could not load DEMO_URL.txt";
+  }
+}
+async function runDemo() {
+  const out = document.getElementById("out"), st = document.getElementById("status");
+  out.hidden = false; out.textContent = ""; st.textContent = "probing…";
+  const log = (t) => out.textContent += t + "\n";
+  try {
+    let r = await fetch(SELLER + "/v1/info", {mode:"cors"});
+    log("== GET /v1/info (free) => " + r.status);
+    log(JSON.stringify(await r.json(), null, 2));
+    r = await fetch(SELLER + "/v1/prices", {mode:"cors"});
+    log("\n== GET /v1/prices WITHOUT X-PAYMENT => " + r.status);
+    log(JSON.stringify(await r.json(), null, 2));
+    st.textContent = r.status === 402 ? "✅ genuine 402 challenge received" : "⚠ unexpected status " + r.status;
+  } catch (e) {
+    st.textContent = "tunnel rotated — reloading URL…";
+    await loadUrl();
+    try {
+      let r = await fetch(SELLER + "/v1/prices", {mode:"cors"});
+      log("\n== retry GET /v1/prices => " + r.status);
+      log(JSON.stringify(await r.json(), null, 2));
+      st.textContent = r.status === 402 ? "✅ genuine 402 challenge received (after rotation)" : "⚠ " + r.status;
+    } catch (e2) { st.textContent = "seller unreachable right now (free tunnel rotates ~15 min) — reload"; }
+  }
+}
+loadUrl();
+</script>
+</body>
+</html>
