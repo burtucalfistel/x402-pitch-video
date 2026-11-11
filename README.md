@@ -1,3 +1,7 @@
+
+## Live demo (auto-refreshed)
+
+The autonomous seller this bounty demonstrates runs at the URL in [DEMO_URL.txt](DEMO_URL.txt) — `GET <url>/v1/prices` returns 402 with x402 requirements without payment, 200 with a valid EIP-712 payment.
 # QuoteBot — x402 pitch video
 
 Entry for the Superteam Earn bounty "Make a video about our x402 Feature" (Swap.io).
