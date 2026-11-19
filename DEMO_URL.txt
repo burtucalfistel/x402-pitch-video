@@ -1,1 +1,1 @@
-https://hermes-price-api.admitted-hickory.workers.dev/v1/mprices
+https://hermes-price-api.pond-echium.workers.dev/v1/mprices
