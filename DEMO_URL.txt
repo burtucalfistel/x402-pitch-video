@@ -1,1 +1,1 @@
-https://hermes-price-api.viridian-green.workers.dev/v1/mprices
+https://hermes-price-api.thunder-airmail.workers.dev/v1/mprices
