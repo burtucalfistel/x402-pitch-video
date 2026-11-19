@@ -1,1 +1,1 @@
-https://hermes-price-api.serene-need.workers.dev/v1/mprices
+https://hermes-price-api.elite-gondola.workers.dev/v1/mprices
