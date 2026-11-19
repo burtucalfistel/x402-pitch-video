@@ -1,1 +1,1 @@
-https://hermes-price-api.delicious-promotion.workers.dev/v1/mprices
+https://hermes-price-api.candied-suggestion-ed8.workers.dev/v1/mprices
