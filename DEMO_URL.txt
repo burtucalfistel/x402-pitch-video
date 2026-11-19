@@ -1,1 +1,1 @@
-https://hermes-price-api.childlike-raver.workers.dev
+https://hermes-price-api.childlike-raver.workers.dev/v1/mprices
