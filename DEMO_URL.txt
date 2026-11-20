@@ -1,1 +1,1 @@
-https://hermes-price-api.freckle-pangolin.workers.dev/v1/mprices
+https://hermes-price-api.odd-brain.workers.dev/v1/mprices
