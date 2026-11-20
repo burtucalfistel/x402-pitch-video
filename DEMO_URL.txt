@@ -1,1 +1,1 @@
-https://hermes-price-api.agreeable-yttrium.workers.dev/v1/mprices
+https://hermes-price-api.curved-lunge.workers.dev/v1/mprices
