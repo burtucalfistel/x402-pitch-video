@@ -1,1 +1,1 @@
-https://hermes-price-api.swamp-mushroom.workers.dev/v1/mprices
+https://hermes-price-api.few-chatter.workers.dev/v1/mprices
