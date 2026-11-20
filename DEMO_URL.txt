@@ -1,1 +1,1 @@
-https://hermes-price-api.fierce-gilmoreosaurus.workers.dev/v1/mprices
+https://hermes-price-api.sleet-ease.workers.dev/v1/mprices
