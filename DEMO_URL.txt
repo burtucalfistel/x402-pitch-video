@@ -1,1 +1,1 @@
-https://hermes-price-api.fringe-iris.workers.dev/v1/mprices
+https://hermes-price-api.guttural-swift.workers.dev/v1/mprices
