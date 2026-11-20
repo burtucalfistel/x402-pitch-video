@@ -1,1 +1,1 @@
-https://hermes-price-api.ablaze-pearl.workers.dev/v1/mprices
+https://hermes-price-api.quilt-cirrus.workers.dev/v1/mprices
