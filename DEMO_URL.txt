@@ -1,1 +1,1 @@
-https://hermes-price-api.fortunate-glockenspiel.workers.dev/v1/mprices
+https://hermes-price-api.malachite-bus.workers.dev/v1/mprices
