@@ -1,1 +1,1 @@
-https://hermes-price-api.brawny-gruyere-4dd.workers.dev/v1/mprices
+https://hermes-price-api.persistent-starflower.workers.dev/v1/mprices
