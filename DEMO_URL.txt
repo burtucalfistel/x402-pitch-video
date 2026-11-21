@@ -1,1 +1,1 @@
-https://hermes-price-api.persistent-starflower.workers.dev/v1/mprices
+https://hermes-price-api.shore-tv.workers.dev/v1/mprices
