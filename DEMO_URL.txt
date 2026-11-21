@@ -1,1 +1,1 @@
-https://hermes-price-api.few-condor.workers.dev/v1/mprices
+https://hermes-price-api.spicy-cymbal.workers.dev/v1/mprices
