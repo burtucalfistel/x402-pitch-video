@@ -1,1 +1,1 @@
-https://hermes-price-api.bubbly-prepared.workers.dev/v1/mprices
+https://hermes-price-api.ritzy-headlight.workers.dev/v1/mprices
