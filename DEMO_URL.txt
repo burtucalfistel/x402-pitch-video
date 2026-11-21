@@ -1,1 +1,1 @@
-https://hermes-price-api.orderly-shop.workers.dev/v1/mprices
+https://hermes-price-api.tricolor-microceratops.workers.dev/v1/mprices
