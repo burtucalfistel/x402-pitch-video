@@ -1,1 +1,1 @@
-https://hermes-price-api.plume-stoplight-592.workers.dev/v1/mprices
+https://hermes-price-api.orderly-shop.workers.dev/v1/mprices
