@@ -1,1 +1,1 @@
-https://hermes-price-api.rare-hortensia.workers.dev/v1/mprices
+https://hermes-price-api.luck-leotard.workers.dev/v1/mprices
