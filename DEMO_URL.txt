@@ -1,1 +1,1 @@
-https://hermes-price-api.chain-gong.workers.dev/v1/mprices
+https://hermes-price-api.rare-hortensia.workers.dev/v1/mprices
