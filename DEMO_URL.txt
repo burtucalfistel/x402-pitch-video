@@ -1,1 +1,1 @@
-https://hermes-price-api.dusty-fireplant.workers.dev/v1/mprices
+https://hermes-price-api.giddy-booklet.workers.dev/v1/mprices
