@@ -1,1 +1,1 @@
-https://hermes-price-api.luck-leotard.workers.dev/v1/mprices
+https://hermes-price-api.deep-pleasure-693.workers.dev/v1/mprices
