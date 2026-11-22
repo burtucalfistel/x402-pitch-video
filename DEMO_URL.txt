@@ -1,1 +1,1 @@
-https://hermes-price-api.vivid-timimus.workers.dev/v1/mprices
+https://hermes-price-api.groovy-radish-b97.workers.dev/v1/mprices
