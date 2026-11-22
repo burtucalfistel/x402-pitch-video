@@ -1,1 +1,1 @@
-https://hermes-price-api.noiseless-termite.workers.dev/v1/mprices
+https://hermes-price-api.cloudy-adapter.workers.dev/v1/mprices
