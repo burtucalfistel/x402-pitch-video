@@ -1,1 +1,1 @@
-https://hermes-price-api.cat-golf.workers.dev/v1/mprices
+https://hermes-price-api.repeated-ridge.workers.dev/v1/mprices
