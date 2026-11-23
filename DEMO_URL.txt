@@ -1,1 +1,1 @@
-https://hermes-price-api.foul-ocean.workers.dev/v1/mprices
+https://hermes-price-api.sticky-mink.workers.dev/v1/mprices
