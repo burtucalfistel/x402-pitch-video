@@ -1,1 +1,1 @@
-https://hermes-price-api.fanatical-sky.workers.dev/v1/mprices
+https://hermes-price-api.faithful-clematis.workers.dev/v1/mprices
