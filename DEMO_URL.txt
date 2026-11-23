@@ -1,1 +1,1 @@
-https://hermes-price-api.flash-leek.workers.dev/v1/mprices
+https://hermes-price-api.numerous-technician-825.workers.dev/v1/mprices
