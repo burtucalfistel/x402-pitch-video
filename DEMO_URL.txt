@@ -1,1 +1,1 @@
-https://hermes-price-api.faithful-clematis.workers.dev/v1/mprices
+https://hermes-price-api.flash-leek.workers.dev/v1/mprices
