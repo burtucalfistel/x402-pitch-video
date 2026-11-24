@@ -1,1 +1,1 @@
-https://hermes-price-api.youthful-health.workers.dev/v1/mprices
+https://hermes-price-api.typical-article.workers.dev/v1/mprices
