@@ -1,1 +1,1 @@
-https://hermes-price-api.conscious-podium.workers.dev/v1/mprices
+https://hermes-price-api.amethyst-vicuna.workers.dev/v1/mprices
