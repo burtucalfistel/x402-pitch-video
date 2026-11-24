@@ -1,1 +1,1 @@
-https://hermes-price-api.conscious-asp.workers.dev/v1/mprices
+https://hermes-price-api.hardly-tower.workers.dev/v1/mprices
