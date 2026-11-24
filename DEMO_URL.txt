@@ -1,1 +1,1 @@
-https://hermes-price-api.glory-writing.workers.dev/v1/mprices
+https://hermes-price-api.rattle-edge.workers.dev/v1/mprices
