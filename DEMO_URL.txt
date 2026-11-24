@@ -1,1 +1,1 @@
-https://hermes-price-api.friendly-amethyst.workers.dev/v1/mprices
+https://hermes-price-api.fantastic-army.workers.dev/v1/mprices
