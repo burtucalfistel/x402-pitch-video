@@ -1,1 +1,1 @@
-https://hermes-price-api.trusted-hurricane-807.workers.dev/v1/mprices
+https://hermes-price-api.adventurous-chatter.workers.dev/v1/mprices
