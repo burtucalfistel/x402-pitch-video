@@ -1,1 +1,1 @@
-https://hermes-price-api.typical-article.workers.dev/v1/mprices
+https://hermes-price-api.quaint-lingonberry-e02.workers.dev/v1/mprices
