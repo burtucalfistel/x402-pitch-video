@@ -1,1 +1,1 @@
-https://hermes-price-api.separate-chopper.workers.dev/v1/mprices
+https://hermes-price-api.enormous-bridge.workers.dev/v1/mprices
