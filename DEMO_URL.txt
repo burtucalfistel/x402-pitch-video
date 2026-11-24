@@ -1,1 +1,1 @@
-https://hermes-price-api.garnet-chopper.workers.dev/v1/mprices
+https://hermes-price-api.conscious-asp.workers.dev/v1/mprices
