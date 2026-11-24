@@ -1,1 +1,1 @@
-https://hermes-price-api.juvenile-paperback.workers.dev/v1/mprices
+https://hermes-price-api.friendly-amethyst.workers.dev/v1/mprices
