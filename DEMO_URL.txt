@@ -1,1 +1,1 @@
-https://hermes-price-api.grateful-candy-214.workers.dev/v1/mprices
+https://hermes-price-api.aged-gondola.workers.dev/v1/mprices
