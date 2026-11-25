@@ -1,1 +1,1 @@
-https://hermes-price-api.cold-kangaroo.workers.dev/v1/mprices
+https://hermes-price-api.apricot-apogee.workers.dev/v1/mprices
