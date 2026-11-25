@@ -1,1 +1,1 @@
-https://hermes-price-api.apricot-apogee.workers.dev/v1/mprices
+https://hermes-price-api.elderly-parent.workers.dev/v1/mprices
