@@ -1,1 +1,1 @@
-https://hermes-price-api.bubble-bearberry.workers.dev/v1/mprices
+https://hermes-price-api.inky-temperature.workers.dev/v1/mprices
