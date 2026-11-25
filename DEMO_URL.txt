@@ -1,1 +1,1 @@
-https://hermes-price-api.potent-marquess.workers.dev/v1/mprices
+https://hermes-price-api.crimson-punch.workers.dev/v1/mprices
