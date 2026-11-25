@@ -1,1 +1,1 @@
-https://hermes-price-api.shadow-scabiosa-a48.workers.dev/v1/mprices
+https://hermes-price-api.marred-book.workers.dev/v1/mprices
