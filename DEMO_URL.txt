@@ -1,1 +1,1 @@
-https://hermes-price-api.fluttering-xylocarp.workers.dev/v1/mprices
+https://hermes-price-api.concrete-wheel.workers.dev/v1/mprices
