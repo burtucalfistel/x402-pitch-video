@@ -1,1 +1,1 @@
-https://hermes-price-api.living-chipmunk-ba0.workers.dev/v1/mprices
+https://hermes-price-api.highly-chips.workers.dev/v1/mprices
