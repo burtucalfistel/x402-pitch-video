@@ -1,1 +1,1 @@
-https://hermes-price-api.bristle-relish.workers.dev/v1/mprices
+https://hermes-price-api.spiny-meeting.workers.dev/v1/mprices
