@@ -1,1 +1,1 @@
-https://hermes-price-api.concrete-wheel.workers.dev/v1/mprices
+https://hermes-price-api.discovered-locket.workers.dev/v1/mprices
