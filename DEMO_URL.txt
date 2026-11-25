@@ -1,1 +1,1 @@
-https://hermes-price-api.cypress-ring.workers.dev/v1/mprices
+https://hermes-price-api.triangular-burst.workers.dev/v1/mprices
