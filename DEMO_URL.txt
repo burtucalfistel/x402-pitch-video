@@ -1,1 +1,1 @@
-https://hermes-price-api.brassy-dogwood.workers.dev/v1/mprices
+https://hermes-price-api.flossy-cheetah.workers.dev/v1/mprices
