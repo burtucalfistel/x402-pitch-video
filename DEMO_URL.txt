@@ -1,1 +1,1 @@
-https://hermes-price-api.glittery-shamrock.workers.dev/v1/mprices
+https://hermes-price-api.muddy-meal.workers.dev/v1/mprices
