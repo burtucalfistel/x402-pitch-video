@@ -1,1 +1,1 @@
-https://hermes-price-api.ink-nightingale.workers.dev/v1/mprices
+https://hermes-price-api.bright-cod.workers.dev/v1/mprices
