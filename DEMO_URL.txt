@@ -1,1 +1,1 @@
-https://hermes-price-api.marvelous-grin.workers.dev/v1/mprices
+https://hermes-price-api.placid-mandolin-c10.workers.dev/v1/mprices
