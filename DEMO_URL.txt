@@ -1,1 +1,1 @@
-https://hermes-price-api.sphenoid-candle.workers.dev/v1/mprices
+https://hermes-price-api.yellow-pancreas.workers.dev/v1/mprices
