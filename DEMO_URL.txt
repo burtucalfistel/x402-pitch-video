@@ -1,1 +1,1 @@
-https://hermes-price-api.meadow-direction.workers.dev/v1/mprices
+https://hermes-price-api.third-scene.workers.dev/v1/mprices
