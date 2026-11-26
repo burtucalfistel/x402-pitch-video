@@ -1,1 +1,1 @@
-https://hermes-price-api.dot-shark-9c1.workers.dev/v1/mprices
+https://hermes-price-api.charmed-tadpole.workers.dev/v1/mprices
