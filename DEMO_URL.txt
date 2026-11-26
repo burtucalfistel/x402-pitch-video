@@ -1,1 +1,1 @@
-https://hermes-price-api.charmed-tadpole.workers.dev/v1/mprices
+https://hermes-price-api.brassy-dogwood.workers.dev/v1/mprices
