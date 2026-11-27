@@ -1,1 +1,1 @@
-https://hermes-price-api.branched-bottle-33a.workers.dev/v1/mprices
+https://hermes-price-api.lucky-grip.workers.dev/v1/mprices
