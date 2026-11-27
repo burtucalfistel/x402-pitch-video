@@ -1,1 +1,1 @@
-https://hermes-price-api.lucky-grip.workers.dev/v1/mprices
+https://hermes-price-api.brawny-prose-60d.workers.dev/v1/mprices
