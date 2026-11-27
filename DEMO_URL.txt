@@ -1,1 +1,1 @@
-https://hermes-price-api.spiny-ear.workers.dev/v1/mprices
+https://hermes-price-api.small-balloon.workers.dev/v1/mprices
