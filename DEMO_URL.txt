@@ -1,1 +1,1 @@
-https://hermes-price-api.fog-fahrenheit.workers.dev/v1/mprices
+https://hermes-price-api.foremost-medallion.workers.dev/v1/mprices
