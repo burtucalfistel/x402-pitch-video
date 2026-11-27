@@ -1,1 +1,1 @@
-https://hermes-price-api.generated-arthropod.workers.dev/v1/mprices
+https://hermes-price-api.lava-ball.workers.dev/v1/mprices
