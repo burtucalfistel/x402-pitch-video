@@ -1,1 +1,1 @@
-https://hermes-price-api.meteor-mars.workers.dev/v1/mprices
+https://hermes-price-api.mysterious-stygimoloch.workers.dev/v1/mprices
