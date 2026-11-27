@@ -1,1 +1,1 @@
-https://hermes-price-api.bronze-wake.workers.dev/v1/mprices
+https://hermes-price-api.heavy-agenda.workers.dev/v1/mprices
