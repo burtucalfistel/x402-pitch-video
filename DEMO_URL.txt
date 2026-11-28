@@ -1,1 +1,1 @@
-https://hermes-price-api.daffodil-muscari.workers.dev/v1/mprices
+https://hermes-price-api.thundering-roadway-4ae.workers.dev/v1/mprices
