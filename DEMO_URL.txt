@@ -1,1 +1,1 @@
-https://hermes-price-api.polarized-citrus-e1c.workers.dev/v1/mprices
+https://hermes-price-api.gigantic-pull.workers.dev/v1/mprices
