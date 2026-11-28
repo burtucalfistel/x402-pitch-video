@@ -1,1 +1,1 @@
-https://hermes-price-api.swamp-tailor.workers.dev/v1/mprices
+https://hermes-price-api.piquant-panama.workers.dev/v1/mprices
