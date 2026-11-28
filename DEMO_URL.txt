@@ -1,1 +1,1 @@
-https://hermes-price-api.gigantic-pull.workers.dev/v1/mprices
+https://hermes-price-api.prickly-barge-05f.workers.dev/v1/mprices
