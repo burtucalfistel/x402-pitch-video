@@ -1,1 +1,1 @@
-https://hermes-price-api.lowly-wood.workers.dev/v1/mprices
+https://hermes-price-api.enshrined-provelone.workers.dev/v1/mprices
