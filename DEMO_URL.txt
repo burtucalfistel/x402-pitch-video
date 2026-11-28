@@ -1,1 +1,1 @@
-https://hermes-price-api.fair-maxilla.workers.dev/v1/mprices
+https://hermes-price-api.fluffy-dewberry.workers.dev/v1/mprices
